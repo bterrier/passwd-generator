@@ -1,6 +1,9 @@
 TEMPLATE = subdirs
 SUBDIRS += src
-OTHER_FILES += .qmake.conf
+OTHER_FILES += .qmake.conf \
+               .gitignore \
+               README.md \
+               COPYING
 
 
 deployqt.target = deployqt
